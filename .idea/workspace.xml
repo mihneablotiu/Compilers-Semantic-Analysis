@@ -4,7 +4,249 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="332e0c07-ec47-4088-94eb-14044d03ea5b" name="Default Changelist" comment="" />
+    <list default="true" id="332e0c07-ec47-4088-94eb-14044d03ea5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/Tema2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/Tema2_Blotiu_Mihnea-Andrei_343C1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTConstructionVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTCyclePassVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTDefinitionPassVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTDefinitionVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTFirstResolutionVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTPrintVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTResolutionPassVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTSecondResolutionVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTTypeResolutionVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/ASTVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/branch/Branch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/classNode/ClassNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Arithmetic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Assign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/ExplicitCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/If.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/ImplicitCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Int.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Let.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Logical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/New.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/ObjectId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Paren.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Str.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/Unary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/expression/While.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/feature/Feature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/feature/Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/feature/Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/formal/Formal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/local/Local.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/program/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/ast/type/TypeId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/compiler/Compiler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/compiler/Compiler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/lexer/CoolLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/lexer/CoolLexer.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/lexer/CoolLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/lexer/CoolLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$ArithmeticExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$AssignExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$BlockExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$BoolExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$BranchContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$CaseExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$ClassContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$ExplicitCallContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$ExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$FeatureContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$FieldContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$FormalContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$IfExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$ImplicitCallContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$IntegerExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$LetExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$LocalContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$LogicalExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$MethodContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$NewExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$ObjectExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$ParenExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$ProgramContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$StringLiteralExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$UnaryExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser$WhileExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParser.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParserBaseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParserBaseVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParserListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/parser/CoolParserVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/AttributeSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/BranchSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/CaseSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/ClassSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/ClassSymbolWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/DefaultScope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/FieldSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/FormalSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/LetSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/LocalSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/MethodSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/ObjectIdSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/Scope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/Symbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/SymbolTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/structures/TypeSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/tester/Tester1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/tester/Tester1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/tester/Tester2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/out/production/Tema2/cool/tester/Tester2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/Tema2_Blotiu_Mihnea-Andrei_343C1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTConstructionVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTCyclePassVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTDefinitionPassVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTDefinitionVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTFirstResolutionVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTPrintVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTResolutionPassVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTSecondResolutionVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTTypeResolutionVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/ASTVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/branch/Branch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/classNode/ClassNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Arithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Assign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Bool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/ExplicitCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/If.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/ImplicitCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Int.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Let.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Logical.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/New.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/ObjectId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Paren.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Str.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/Unary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/expression/While.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/feature/Feature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/feature/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/feature/Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/formal/Formal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/local/Local.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/program/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/ast/type/TypeId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/compiler/Compiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/lexer/CoolLexer.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/lexer/CoolLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/lexer/CoolLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/lexer/CoolLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/parser/CoolLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/parser/CoolParser.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/parser/CoolParser.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/parser/CoolParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/parser/CoolParser.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/parser/CoolParserBaseListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/parser/CoolParserBaseVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/parser/CoolParserListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/parser/CoolParserVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/AttributeSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/BranchSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/CaseSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/ClassSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/ClassSymbolWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/DefaultScope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/FieldSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/FormalSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/LetSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/LocalSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/MethodSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/ObjectIdSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/Scope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/Symbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/SymbolTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/structures/TypeSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/tester/Tester1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/src/cool/tester/Tester2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/01-define-class.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/01-define-class.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/01-define-class.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/02-define-attribute.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/02-define-attribute.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/02-define-attribute.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/03-define-method.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/03-define-method.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/03-define-method.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/04-define-let.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/04-define-let.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/04-define-let.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/05-define-case.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/05-define-case.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/05-define-case.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/06-resolve-id.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/06-resolve-id.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/06-resolve-id.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/07-type-arithmetic.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/07-type-arithmetic.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/07-type-arithmetic.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/08-type-relational.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/08-type-relational.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/08-type-relational.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/09-type-assignment.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/09-type-assignment.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/09-type-assignment.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/10-type-new-isvoid.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/10-type-new-isvoid.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/10-type-new-isvoid.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/11-type-while.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/11-type-while.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/11-type-while.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/12-type-if.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/12-type-if.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/12-type-if.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/13-type-case.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/13-type-case.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/13-type-case.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/14-type-block.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/14-type-block.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/14-type-block.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/15-type-let.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/15-type-let.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/15-type-let.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/16-type-attr.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/16-type-attr.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/16-type-attr.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/17-type-method.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/17-type-method.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/17-type-method.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/18-type-dispatch.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/18-type-dispatch.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/18-type-dispatch.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/19-self_type.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/19-self_type.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/19-self_type.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/20-basic-classes.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/20-basic-classes.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/20-basic-classes.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilers-Semantic-Analysis/tests/tema2/main.cl" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +259,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Compilers-Semantic-Analysis" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -28,24 +273,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Tester2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mblot/Desktop/CPL/Tema3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Tester1.executor": "Run",
+    "Application.Tester2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mblot/Desktop/CPL/Tema2/Compilers-Semantic-Analysis",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mblot\Desktop\CPL\Tema2\src\cool" />
@@ -90,8 +337,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
       </set>
     </attachedChunks>
   </component>
@@ -115,6 +362,7 @@
       <workItem from="1716792821636" duration="178000" />
       <workItem from="1717852050390" duration="2594000" />
       <workItem from="1718456122032" duration="1670000" />
+      <workItem from="1735230512767" duration="411000" />
     </task>
     <servers />
   </component>
