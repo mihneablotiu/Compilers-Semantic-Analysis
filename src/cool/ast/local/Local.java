@@ -33,12 +33,16 @@ public class Local extends ASTNode {
         return typeId;
     }
 
-    public LocalSymbol getLocalSymbol() {
-        return localSymbol;
+    public Expression getAssignExpr() {
+        return assignExpr;
     }
 
     public void setLocalSymbol(LocalSymbol localSymbol) {
         this.localSymbol = localSymbol;
+    }
+
+    public LocalSymbol getLocalSymbol() {
+        return localSymbol;
     }
 
     public Scope getResolutionScope() {
@@ -47,10 +51,6 @@ public class Local extends ASTNode {
 
     public void setResolutionScope(Scope resolutionScope) {
         this.resolutionScope = resolutionScope;
-    }
-
-    public Expression getAssignExpr() {
-        return assignExpr;
     }
 
     @Override

@@ -5,6 +5,7 @@ import cool.ast.ASTVisitor;
 import cool.ast.feature.Feature;
 import cool.ast.type.TypeId;
 import cool.structures.ClassSymbol;
+import cool.structures.ClassSymbolWrapper;
 import cool.structures.Scope;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.Token;
@@ -15,8 +16,7 @@ public class ClassNode extends ASTNode {
     private final TypeId className;
     private final TypeId parentName;
     private final ArrayList<Feature> features;
-    private ClassSymbol classSymbol;
-
+    private ClassSymbolWrapper classSymbolWrapper;
     public ClassNode(Token token, ParserRuleContext parserRuleContext,
                      TypeId className, TypeId parentName, ArrayList<Feature> features) {
         super(token, parserRuleContext);
@@ -37,12 +37,12 @@ public class ClassNode extends ASTNode {
         return features;
     }
 
-    public ClassSymbol getClassSymbol() {
-        return classSymbol;
+    public ClassSymbolWrapper getClassSymbolWrapper() {
+        return classSymbolWrapper;
     }
 
-    public void setClassSymbol(ClassSymbol classSymbol) {
-        this.classSymbol = classSymbol;
+    public void setClassSymbolWrapper(ClassSymbolWrapper classSymbolWrapper) {
+        this.classSymbolWrapper = classSymbolWrapper;
     }
 
     @Override

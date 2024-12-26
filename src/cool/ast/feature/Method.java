@@ -5,8 +5,8 @@ import cool.ast.expression.Expression;
 import cool.ast.expression.ObjectId;
 import cool.ast.formal.Formal;
 import cool.ast.type.TypeId;
+import cool.structures.ClassSymbol;
 import cool.structures.MethodSymbol;
-import cool.structures.Scope;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.Token;
 
@@ -18,7 +18,7 @@ public class Method extends Feature {
     private final TypeId returnType;
     private final Expression insideExpr;
     private MethodSymbol methodSymbol;
-    private Scope resolutionScope;
+    private ClassSymbol classSymbol;
 
     public Method(Token token, ParserRuleContext parserRuleContext, ObjectId methodId,
                   ArrayList<Formal> formals, TypeId returnType, Expression insideExpr) {
@@ -27,22 +27,6 @@ public class Method extends Feature {
         this.formals = formals;
         this.returnType = returnType;
         this.insideExpr = insideExpr;
-    }
-
-    public MethodSymbol getMethodSymbol() {
-        return methodSymbol;
-    }
-
-    public Scope getResolutionScope() {
-        return resolutionScope;
-    }
-
-    public void setResolutionScope(Scope resolutionScope) {
-        this.resolutionScope = resolutionScope;
-    }
-
-    public void setMethodSymbol(MethodSymbol methodSymbol) {
-        this.methodSymbol = methodSymbol;
     }
 
     public ObjectId getMethodId() {
@@ -59,6 +43,22 @@ public class Method extends Feature {
 
     public Expression getInsideExpr() {
         return insideExpr;
+    }
+
+    public MethodSymbol getMethodSymbol() {
+        return methodSymbol;
+    }
+
+    public void setMethodSymbol(MethodSymbol methodSymbol) {
+        this.methodSymbol = methodSymbol;
+    }
+
+    public ClassSymbol getClassSymbol() {
+        return classSymbol;
+    }
+
+    public void setClassSymbol(ClassSymbol classSymbol) {
+        this.classSymbol = classSymbol;
     }
 
     @Override

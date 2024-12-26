@@ -1,6 +1,7 @@
 package cool.structures;
 
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class DefaultScope implements Scope {
     
@@ -24,14 +25,14 @@ public class DefaultScope implements Scope {
     }
 
     @Override
-    public Symbol lookup(String name) {
+    public Symbol lookup(String name, boolean isField) {
         var sym = symbols.get(name);
         
         if (sym != null)
             return sym;
         
         if (parent != null)
-            return parent.lookup(name);
+            return parent.lookup(name, isField);
         
         return null;
     }

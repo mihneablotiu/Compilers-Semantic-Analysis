@@ -1,17 +1,17 @@
 package cool.structures;
 
 public class ObjectIdSymbol extends Symbol {
-    private TypeSymbol type;
+    private ClassSymbolWrapper typeSymbol;
 
     public ObjectIdSymbol(String name) {
         super(name);
     }
 
-    public TypeSymbol getType() {
-        return type;
+    public ClassSymbolWrapper getTypeSymbol() {
+        return typeSymbol;
     }
 
-    public void setType(TypeSymbol type) {
-        this.type = type;
+    public void setTypeSymbol(ClassSymbolWrapper typeSymbol) {
+        this.typeSymbol = typeSymbol;
     }
 }

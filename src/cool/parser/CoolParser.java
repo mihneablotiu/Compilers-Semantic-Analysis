@@ -1,4 +1,4 @@
-// Generated from C:/Users/mblot/Desktop/CPL/Tema2 - Final/src/cool/parser/CoolParser.g4 by ANTLR 4.13.1
+// Generated from C:/Users/mblot/Desktop/CPL/Tema2/src/cool/parser/CoolParser.g4 by ANTLR 4.13.1
 
     package cool.parser;
 

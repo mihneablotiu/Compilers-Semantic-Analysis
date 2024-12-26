@@ -7,19 +7,16 @@ import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.Token;
 
 public class ObjectId extends Expression {
-    private ObjectIdSymbol objectIdSymbol;
     private Scope resolutionScope;
+    private ObjectIdSymbol objectIdSymbol;
 
     public ObjectId(Token token, ParserRuleContext parserRuleContext) {
         super(token, parserRuleContext);
     }
 
-    public ObjectIdSymbol getObjectIdSymbol() {
-        return objectIdSymbol;
-    }
-
-    public void setObjectIdSymbol(ObjectIdSymbol objectIdSymbol) {
-        this.objectIdSymbol = objectIdSymbol;
+    @Override
+    public <T> T accept(ASTVisitor<T> visitor) {
+        return visitor.visit(this);
     }
 
     public Scope getResolutionScope() {
@@ -30,10 +27,11 @@ public class ObjectId extends Expression {
         this.resolutionScope = resolutionScope;
     }
 
-    @Override
-    public <T> T accept(ASTVisitor<T> visitor) {
-        return visitor.visit(this);
+    public ObjectIdSymbol getObjectIdSymbol() {
+        return objectIdSymbol;
     }
 
-
+    public void setObjectIdSymbol(ObjectIdSymbol objectIdSymbol) {
+        this.objectIdSymbol = objectIdSymbol;
+    }
 }

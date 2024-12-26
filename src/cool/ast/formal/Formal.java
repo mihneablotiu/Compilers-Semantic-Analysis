@@ -5,15 +5,15 @@ import cool.ast.ASTVisitor;
 import cool.ast.expression.ObjectId;
 import cool.ast.type.TypeId;
 import cool.structures.FormalSymbol;
-import cool.structures.Scope;
+import cool.structures.MethodSymbol;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.Token;
 
 public class Formal extends ASTNode {
     private final ObjectId objectId;
     private final TypeId typeId;
+    private MethodSymbol methodSymbol;
     private FormalSymbol formalSymbol;
-    private Scope resolutionScope;
 
     public Formal(Token token, ParserRuleContext parserRuleContext,
                   ObjectId objectId, TypeId typeId) {
@@ -30,12 +30,12 @@ public class Formal extends ASTNode {
         return typeId;
     }
 
-    public Scope getResolutionScope() {
-        return resolutionScope;
+    public MethodSymbol getMethodSymbol() {
+        return methodSymbol;
     }
 
-    public void setResolutionScope(Scope resolutionScope) {
-        this.resolutionScope = resolutionScope;
+    public void setMethodSymbol(MethodSymbol methodSymbol) {
+        this.methodSymbol = methodSymbol;
     }
 
     public FormalSymbol getFormalSymbol() {

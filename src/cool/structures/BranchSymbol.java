@@ -1,42 +1,38 @@
 package cool.structures;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.HashMap;
 
-public class BranchSymbol extends ObjectIdSymbol implements Scope {
-    private final Map<String, Symbol> symbols = new LinkedHashMap<>();
-    private final Scope parent;
+public class BranchSymbol extends Symbol implements Scope {
+    private ClassSymbolWrapper typeSymbol;
+    private Scope parent;
+    private final HashMap<String, Symbol> branchSymbols = new HashMap<>();
 
-    public BranchSymbol(String name, Scope parent) {
+    public BranchSymbol(String name) {
         super(name);
-        this.parent = parent;
     }
 
+    @Override
     public boolean add(Symbol sym) {
         // Reject duplicates in the same scope.
-        if (symbols.containsKey(sym.getName()))
+        if (branchSymbols.containsKey(sym.getName()))
             return false;
 
-        symbols.put(sym.getName(), sym);
+        branchSymbols.put(sym.getName(), sym);
 
         return true;
     }
 
     @Override
-    public Symbol lookup(String name) {
-        var sym = symbols.get(name);
+    public Symbol lookup(String name, boolean isField) {
+        var sym = branchSymbols.get(name);
 
         if (sym != null)
             return sym;
 
         if (parent != null)
-            return parent.lookup(name);
+            return parent.lookup(name, isField);
 
         return null;
-    }
-
-    public Map<String, Symbol> getSymbols() {
-        return symbols;
     }
 
     @Override
@@ -44,9 +40,15 @@ public class BranchSymbol extends ObjectIdSymbol implements Scope {
         return parent;
     }
 
+    public ClassSymbolWrapper getTypeSymbol() {
+        return typeSymbol;
+    }
 
-    @Override
-    public String toString() {
-        return symbols.values().toString();
+    public void setTypeSymbol(ClassSymbolWrapper typeSymbol) {
+        this.typeSymbol = typeSymbol;
+    }
+
+    public void setParent(Scope parent) {
+        this.parent = parent;
     }
 }

@@ -3,50 +3,114 @@ package cool.structures;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class ClassSymbol extends TypeSymbol implements Scope {
-    private final Map<String, Symbol> symbols = new LinkedHashMap<>();
-    private final Scope parent;
-    private Scope directParent;
+public class ClassSymbol extends Symbol implements Scope {
+    private final Map<String, Symbol> fieldSymbols = new LinkedHashMap<>();
+    private final Map<String, Symbol> methodSymbols = new LinkedHashMap<>();
+    private final Scope parent = SymbolTable.globals;
+    private Scope directParent = null;
 
-    public ClassSymbol(String name, Scope parent) {
+    public ClassSymbol(String name) {
         super(name);
-        this.parent = parent;
     }
 
-    public boolean isInCycle(String initialName) {
-        if (this.getName().equals("Object")) {
-            return false;
-        }
-
-        if (this.getName().equals(initialName)) {
-            return true;
-        }
-
-        return ((ClassSymbol) this.directParent).isInCycle(initialName);
-    }
-
-    @Override
-    public boolean add(Symbol sym) {
+    public boolean addField(Symbol sym) {
         // Reject duplicates in the same scope.
-        if (symbols.containsKey(sym.getName()))
+        if (fieldSymbols.containsKey(sym.getName()))
             return false;
 
-        symbols.put(sym.getName(), sym);
+        fieldSymbols.put(sym.getName(), sym);
 
         return true;
     }
 
-    @Override
-    public Symbol lookup(String name) {
-        var sym = symbols.get(name);
+    public boolean addMethod(Symbol sym) {
+        // Reject duplicates in the same scope.
+        if (methodSymbols.containsKey(sym.getName()))
+            return false;
+
+        methodSymbols.put(sym.getName(), sym);
+
+        return true;
+    }
+
+    public Symbol lookupField(String name) {
+        var sym = fieldSymbols.get(name);
 
         if (sym != null)
             return sym;
 
-        if (directParent != null)
-            return directParent.lookup(name);
+        if (directParent != null && directParent != SymbolTable.globals)
+            return ((ClassSymbol) directParent).lookupField(name);
 
         return null;
+    }
+
+    public Symbol lookupMethod(String name) {
+        var sym = methodSymbols.get(name);
+
+        if (sym != null)
+            return sym;
+
+        if (directParent != null && directParent != SymbolTable.globals)
+            return ((ClassSymbol) directParent).lookupMethod(name);
+
+        return null;
+    }
+
+    public boolean isChildOf(ClassSymbol parent) {
+        if (parent.name.equals("Object"))
+            return true;
+
+        if (this.name.equals(parent.name))
+            return true;
+
+        if (this.directParent == SymbolTable.globals || this.directParent == null)
+            return false;
+
+        return ((ClassSymbol) this.directParent).isChildOf(parent);
+    }
+
+    public int countParents() {
+        if (this.name.equals("Object"))
+            return 0;
+
+        return 1 + ((ClassSymbol) this.directParent).countParents();
+    }
+
+    public ClassSymbol leastUpperBound(ClassSymbol other) {
+        if (this == other)
+            return this;
+
+        if (this.isChildOf(other))
+            return other;
+
+        if (other.isChildOf(this))
+            return this;
+
+        return ((ClassSymbol) this.directParent).leastUpperBound(other);
+    }
+
+    public boolean isInCycle(ClassSymbol initialClass) {
+        if (this.name.equals("Object") || this.directParent == null)
+            return false;
+
+        if (this == initialClass)
+            return true;
+
+        return ((ClassSymbol) this.directParent).isInCycle(initialClass);
+    }
+
+    @Override
+    public boolean add(Symbol sym) {
+        return false;
+    }
+
+    @Override
+    public Symbol lookup(String str, boolean isField) {
+        if (isField)
+            return lookupField(str);
+        else
+            return lookupMethod(str);
     }
 
     @Override
@@ -54,9 +118,12 @@ public class ClassSymbol extends TypeSymbol implements Scope {
         return parent;
     }
 
-    @Override
-    public String toString() {
-        return symbols.values().toString();
+    public Map<String, Symbol> getFieldSymbols() {
+        return fieldSymbols;
+    }
+
+    public Map<String, Symbol> getMethodSymbols() {
+        return methodSymbols;
     }
 
     public Scope getDirectParent() {

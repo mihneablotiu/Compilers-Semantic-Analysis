@@ -6,7 +6,6 @@ import cool.ast.expression.Expression;
 import cool.ast.expression.ObjectId;
 import cool.ast.type.TypeId;
 import cool.structures.BranchSymbol;
-import cool.structures.Scope;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.Token;
 
@@ -15,8 +14,6 @@ public class Branch extends ASTNode {
     private final TypeId typeId;
     private final Expression branch;
     private BranchSymbol branchSymbol;
-
-    private Scope resolutionScope;
 
     public Branch(Token token, ParserRuleContext parserRuleContext,
                   ObjectId objectId, TypeId typeId, Expression branch) {
@@ -38,24 +35,16 @@ public class Branch extends ASTNode {
         return branch;
     }
 
+    @Override
+    public <T> T accept(ASTVisitor<T> visitor) {
+        return visitor.visit(this);
+    }
+
     public BranchSymbol getBranchSymbol() {
         return branchSymbol;
     }
 
-    public Scope getResolutionScope() {
-        return resolutionScope;
-    }
-
-    public void setResolutionScope(Scope resolutionScope) {
-        this.resolutionScope = resolutionScope;
-    }
-
     public void setBranchSymbol(BranchSymbol branchSymbol) {
         this.branchSymbol = branchSymbol;
-    }
-
-    @Override
-    public <T> T accept(ASTVisitor<T> visitor) {
-        return visitor.visit(this);
     }
 }

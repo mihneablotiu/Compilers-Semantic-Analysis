@@ -1,4 +1,4 @@
-// Generated from C:/Users/mblot/Desktop/CPL/Tema2 - Final/src/cool/lexer/CoolLexer.g4 by ANTLR 4.13.1
+// Generated from C:/Users/mblot/Desktop/CPL/Tema2/src/cool/lexer/CoolLexer.g4 by ANTLR 4.13.1
 
     package cool.lexer;
 

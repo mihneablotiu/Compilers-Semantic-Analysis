@@ -2,6 +2,7 @@ package cool.ast.expression;
 
 import cool.ast.ASTVisitor;
 import cool.ast.type.TypeId;
+import cool.structures.Scope;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.Token;
 
@@ -12,6 +13,8 @@ public class ExplicitCall extends Expression {
     private final TypeId classType;
     private final ObjectId methodId;
     private final ArrayList<Expression> params;
+
+    private Scope resolutionScope;
 
     public ExplicitCall(Token token, ParserRuleContext parserRuleContext, Expression dispatchExpr,
                         TypeId classType, ObjectId methodId, ArrayList<Expression> params) {
@@ -36,6 +39,14 @@ public class ExplicitCall extends Expression {
 
     public ArrayList<Expression> getParams() {
         return params;
+    }
+
+    public Scope getResolutionScope() {
+        return resolutionScope;
+    }
+
+    public void setResolutionScope(Scope resolutionScope) {
+        this.resolutionScope = resolutionScope;
     }
 
 
